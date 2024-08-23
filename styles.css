@@ -1,0 +1,298 @@
+@import url('https://use.typekit.net/grf6snf.css');
+
+form[action="/erp/donate/create/ticket"] > div > .row:nth-child(2) > div:nth-child(2) {
+   font-weight: bold !important;
+   color: white;
+}
+form[action="/erp/donate/create/ticket"] > div > .row:nth-child(2) > div:nth-child(2)::before {
+   content: "Celebrating Your Impact";  
+   color: black;
+}
+
+body {
+  font-size: 17px;
+}
+
+a {
+  color: #c33c96;
+  transition: .1s all linear;
+}
+
+a:focus,
+a:hover {
+  opacity: .8;
+  color: #c33c96;
+}
+.ft_event_header,
+form:not([action="/erp/donate/checkout"]):not([action="/erp/donate/create/ticket"]) .row:first-of-type h3:first-of-type,
+h1, h2, h3, h4, h5, h6 {
+  font-family: "ff-good-headline-web-pro-con", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin-bottom: 0.83em;
+}
+
+h2 {
+  font-size: 36px;
+  letter-spacing: 0em;
+  line-height: 1.3em;
+}
+
+.ft_event_header,
+form:not([action="/erp/donate/checkout"]):not([action="/erp/donate/create/ticket"]) .row:first-of-type h3:first-of-type,
+h3 {
+  margin-top: 0.83em;
+  font-size: 60px;
+}
+
+.ft_event_header p {
+    font-size: 36px;
+}
+
+/* Override default nav-tabs styles to look like nav-pills */
+.nav-tabs {
+  border-bottom: none;
+  justify-content: center;
+}
+
+.ft_fund_search a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+}
+
+.ft_fund_search a,
+.nav-tabs .nav-link {
+  border: 1px solid #42822b;
+  color: #42822b;
+  margin: 0 5px;
+  border-radius: 3px;
+  transition: .1s opacity linear;
+}
+
+.ft_fund_search a:active,
+.nav-tabs .nav-link.active {
+  background-color: #42822b; /* Background color for active pill */
+  border-color: #42822b;
+  color: #fff; /* Text color for active pill */
+}
+
+/* Optional: Add hover effect */
+.ft_fund_search a:hover,
+.nav-tabs .nav-link:hover {
+  background-color: #42822b;
+  color: #fff;
+  border-color: #42822b; /* Background color on hover */
+  text-decoration: none;
+}
+
+.ft_fund_search {
+  padding-top: 1em;
+}
+
+.ft_fund_search label {
+  display: none;
+}
+
+.ft_fund_search input {
+    background: url(https://rtraction.github.io/lcf-fcsuite/search.png) no-repeat 15px 50%;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    padding: 15px 15px 15px 60px;
+}
+
+.ft_fund_list {
+  margin: 0 auto;
+}
+
+.ft_fund_results {
+  margin-top: 2em;
+}
+
+.ft_fund_results tbody {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.ft_fund_results th, 
+.ft_fund_results td{
+  display: block;
+  border: none;
+}
+
+.ft_fund_results td:first-child {
+  font-family: "ff-good-headline-web-pro-con", sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+}
+
+.ft_fund_results tr {
+  width: 48%; /* Set to slightly less than half the container width to account for margins */
+  background-color: #f8f9fa; /* Background color of the blocks */
+  margin-bottom: 10px; /* Space between rows */
+  padding: 10px; /* Padding inside each block */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: add a shadow for a more block-like appearance */
+  border-radius: 5px; /* Optional: round the corners of the blocks */
+}
+
+.ft_fund_results tr:not([class]):not([id]){
+  display: none;
+}
+
+
+.ft_header_container {
+  background: url(https://rtraction.github.io/lcf-fcsuite/banner-slim.jpg) center top no-repeat #1f1f1f;
+  background-attachment: fixed;
+  min-height: 300px;
+}
+.rtr-banner {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  color: #fff;
+}
+
+.logo img {
+  max-width: 135px;
+  margin-top: 45px;
+}
+
+a.link-back {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  color: white;
+  margin-top: 4em;
+}
+
+/* hopefully just targetting the all funds list */
+a.btn.btn-primary.btn-sm {
+    margin-right: 1em;
+}
+
+.btn, .btn-primary {
+  background-color: #42822b;
+  color: #fff;
+  border-radius: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 14px 35px;
+  border: none;
+  transition: .1s opacity linear;
+}
+
+.btn:hover {
+  opacity: .8;
+  background-color: #42822b;
+}
+
+.ft_content_container .row, .ft_content_container .p-2 {
+  padding-left: 0!important;
+  margin-left: 0;
+}
+
+#type_addr .row,
+#ind_container {
+  margin-left: -15px;
+}
+
+.form-control:focus {
+  border-color: #42822b !important;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25) !important;
+}
+
+select:focus {
+  border-color: #42822b !important;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25) !important;
+}
+
+/* For some reason the vendor hard coded some things to be bold */
+form:not([action="/erp/donate/checkout"]):not([action="/erp/donate/create/ticket"]) .font-weight-bold {
+  font-weight: normal!important;
+}
+
+form:not([action="/erp/donate/checkout"]):not([action="/erp/donate/create/ticket"]) h3 {
+  font-size: 17px;
+  font-weight: normal;
+  font-family: Arial, sans-serif;
+  padding-top: 2em;
+}
+
+form:not([action="/erp/donate/checkout"]):not([action="/erp/donate/create/ticket"]) .row:first-of-type h3:first-of-type, h3 {
+    margin: 1em 0 0;
+    padding: 0;
+}
+
+form:not([action="/erp/donate/checkout"]):not([action="/erp/donate/create/ticket"]) div:first-of-type > div:first-child + div {
+  font-weight: bold;
+  font-family: 'ff-good-headline-web-pro-con';
+  font-size: 36px;
+}
+
+form:not([action="/erp/donate/checkout"]):not([action="/erp/donate/create/ticket"]) .row, 
+form:not([action="/erp/donate/checkout"]):not([action="/erp/donate/create/ticket"]) .row div {
+  display: block;
+  width: 100%;
+  min-width: 100%;
+}
+
+form:not([action="/erp/donate/checkout"]):not([action="/erp/donate/create/ticket"]) .form-control-sm {
+  margin-top: -1em;
+}
+
+form:not([action="/erp/donate/checkout"]):not([action="/erp/donate/create/ticket"]) input.btn {
+  margin: 3em 0;
+}
+
+.ft_footer {
+  background: #1f1f1f;
+  padding: 90px 0;
+  justify-content: center;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 27px;
+}
+
+.ft_footer ul, 
+.ft_footer a, 
+.ft_footer p {
+  font-size: 17px;
+  color: #fff;
+}
+
+.ft_footer a {
+  text-decoration: underline;
+}
+
+.ft_footer a.btn {
+  text-decoration: none;
+  background: none;
+  border: 2px solid #fff;
+  font-family: 'ff-good-headline-web-pro';
+  margin: 1em 0;
+}
+
+.ft_footer a:hover {
+  text-decoration: none;
+}
+
+.ft_footer a.btn:hover {
+    text-decoration: none;
+    opacity: 1;
+    background: #fff;
+    color: #1d1d1d;
+}
+
+.ft_footer ul {
+  padding: 0;
+  list-style: none;
+}
+
+.ft_footer .col-md-12 {
+  text-align: center;
+  padding-top: 90px;
+}
