@@ -216,7 +216,7 @@ form:not([action="/erp/donate/checkout"]):not([action="/erp/donate/create/ticket
 }
 
 form:not([action="/erp/donate/checkout"]):not([action="/erp/donate/create/ticket"]) h3 {
-  font-size: 17px;
+  font-size: 8px;
   font-weight: normal;
   font-family: Arial, sans-serif;
   padding-top: 2em;
