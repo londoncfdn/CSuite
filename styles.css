@@ -42,7 +42,7 @@ h2 {
 form:not([action="/erp/donate/checkout"]):not([action="/erp/donate/create/ticket"]) .row:first-of-type h3:first-of-type,
 h3 {
   margin-top: 0.83em;
-  font-size: 17px;
+  font-size: 12px;
 }
 
 .ft_event_header p {
