@@ -1,5 +1,5 @@
 @import url('https://use.typekit.net/grf6snf.css');
-
+/*Hardcoding to accomodate event title - may no longer be relevant?*/
 form[action="/erp/donate/create/ticket"] > div > .row:nth-child(2) > div:nth-child(2) {
    font-weight: bold !important;
    color: white;
@@ -246,6 +246,13 @@ form:not([action="/erp/donate/checkout"]):not([action="/erp/donate/create/ticket
 
 form:not([action="/erp/donate/checkout"]):not([action="/erp/donate/create/ticket"]) input.btn {
   margin: 3em 0;
+}
+/*adjusting h3 on checkout page*/
+form:[action="/erp/donate/create/fund"] h3 {  
+  font-size: 17px;
+  font-weight: normal;
+  font-family: Arial, sans-serif;
+  padding-top: 2em;
 }
 
 .ft_footer {
