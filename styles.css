@@ -1,5 +1,7 @@
+/*This line imports a CSS stylesheet from Adobe Typekit (now known as Adobe Fonts). */
 @import url('https://use.typekit.net/grf6snf.css');
 
+/*This is code added to hard code the ticket name into the event ticket section. Can be removed.
 form[action="/erp/donate/create/ticket"] > div > .row:nth-child(2) > div:nth-child(2) {
    font-weight: bold !important;
    color: white;
@@ -8,11 +10,12 @@ form[action="/erp/donate/create/ticket"] > div > .row:nth-child(2) > div:nth-chi
    content: "Celebrating Your Impact";  
    color: black;
 }
-
+   */
+/*Sets body font size*/
 body {
   font-size: 17px;
 }
-
+/*Sets text color of links and adds transition effect*/
 a {
   color: #c33c96;
   transition: .1s all linear;
@@ -23,6 +26,7 @@ a:hover {
   opacity: .8;
   color: #c33c96;
 }
+/*Applies styling to Header elements that are not either the first h3 inside the first row, or are not checkout or ticket actions */
 .ft_event_header,
 form:not([action="/erp/donate/checkout"]):not([action="/erp/donate/create/ticket"]) .row:first-of-type h3:first-of-type,
 h1, h2, h3, h4, h5, h6 {
@@ -31,20 +35,20 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
   margin-bottom: 0.83em;
 }
-
+/*Sets additional styling for H2*/
 h2 {
   font-size: 36px;
   letter-spacing: 0em;
   line-height: 1.3em;
 }
-
+/*Similar to selector two above, except also include h3*/
 .ft_event_header,
-form:not([action="/erp/donate/checkout"]):not([action="/erp/donate/create/ticket"]) .row:first-of-type h3:first-of-type,
-h3 {
+/*form:not([action="/erp/donate/checkout"]):not([action="/erp/donate/create/ticket"]) .row:first-of-type h3:first-of-type,
+h3*/ {
   margin-top: 0.83em;
   font-size: 12px;
 }
-
+/*Sets paragraph font size to 36*/
 .ft_event_header p {
     font-size: 36px;
 }
@@ -140,7 +144,7 @@ h3 {
   display: none;
 }
 
-
+/*sets a background image with positioning, no-repeat, fallback color, and fixes the background while scrolling.*/
 .ft_header_container {
   background: url(https://londoncfdn.github.io/CSuite/banner-slim.jpg) center top no-repeat #1f1f1f;
   background-attachment: fixed;
@@ -154,7 +158,7 @@ h3 {
   align-items: end;
   color: #fff;
 }
-
+/*Logo image on background*/
 .logo img {
   max-width: 135px;
   margin-top: 45px;
