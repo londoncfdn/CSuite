@@ -1,7 +1,9 @@
 /*This line imports a CSS stylesheet from Adobe Typekit (now known as Adobe Fonts). */
 @import url('https://use.typekit.net/grf6snf.css');
+<<<<<<< HEAD
 
 /*This is code added to hard code the ticket name into the event ticket section. Can be removed.
+=======
 form[action="/erp/donate/create/ticket"] > div > .row:nth-child(2) > div:nth-child(2) {
    font-weight: bold !important;
    color: white;
@@ -46,7 +48,7 @@ h2 {
 /*form:not([action="/erp/donate/checkout"]):not([action="/erp/donate/create/ticket"]) .row:first-of-type h3:first-of-type,
 h3*/ {
   margin-top: 0.83em;
-  font-size: 12px;
+  font-size: 60px;
 }
 /*Sets paragraph font size to 36*/
 .ft_event_header p {
@@ -250,6 +252,13 @@ form:not([action="/erp/donate/checkout"]):not([action="/erp/donate/create/ticket
 
 form:not([action="/erp/donate/checkout"]):not([action="/erp/donate/create/ticket"]) input.btn {
   margin: 3em 0;
+}
+/*adjusting h3 on checkout page*/
+form:[action="/erp/donate/create/fund"] h3 {  
+  font-size: 17px;
+  font-weight: normal;
+  font-family: Arial, sans-serif;
+  padding-top: 2em;
 }
 
 .ft_footer {
