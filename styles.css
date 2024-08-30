@@ -130,7 +130,7 @@ h3*/ {
 .ft_fund_results td:first-child {
   font-family: "ff-good-headline-web-pro-con", sans-serif;
   font-weight: 500;
-  font-size: 36px;
+  /*font-size: 36px;*/
 }
 
 .ft_fund_results tr {
@@ -236,7 +236,7 @@ form:not([action="/erp/donate/checkout"]):not([action="/erp/donate/create/ticket
 form:not([action="/erp/donate/checkout"]):not([action="/erp/donate/create/ticket"]) div:first-of-type > div:first-child + div {
   font-weight: bold;
   font-family: 'ff-good-headline-web-pro-con';
-  font-size: 36px;
+  /*font-size: 36px;*/
 }
 
 form:not([action="/erp/donate/checkout"]):not([action="/erp/donate/create/ticket"]) .row, 
