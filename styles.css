@@ -239,12 +239,12 @@ form:not([action="/erp/donate/checkout"]):not([action="/erp/donate/create/ticket
   /*font-size: 36px;*/
 }
 
-form:not([action="/erp/donate/checkout"]):not([action="/erp/donate/create/ticket"]) .row, 
+/*form:not([action="/erp/donate/checkout"]):not([action="/erp/donate/create/ticket"]) .row, 
 form:not([action="/erp/donate/checkout"]):not([action="/erp/donate/create/ticket"]) .row div {
   display: block;
   width: 100%;
   min-width: 100%;
-}
+}*/
 
 form:not([action="/erp/donate/checkout"]):not([action="/erp/donate/create/ticket"]) .form-control-sm {
   margin-top: -1em;
