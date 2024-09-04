@@ -45,8 +45,8 @@ h2 {
 }
 /*Similar to selector two above, except also include h3*/
 .ft_event_header,
-/*form:not([action="/erp/donate/checkout"]):not([action="/erp/donate/create/ticket"]) .row:first-of-type h3:first-of-type,
-h3*/ {
+form:not([action="/erp/donate/checkout"]):not([action="/erp/donate/create/ticket"]) .row:first-of-type h3:first-of-type,
+h3 {
   margin-top: 0.83em;
   font-size: 60px;
 }
