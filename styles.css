@@ -130,7 +130,7 @@ h3*/ {
 .ft_fund_results td:first-child {
   font-family: "ff-good-headline-web-pro-con", sans-serif;
   font-weight: 500;
-  /*font-size: 36px;*/
+  font-size: 36px;
 }
 
 .ft_fund_results tr {
