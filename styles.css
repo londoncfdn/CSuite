@@ -2,7 +2,7 @@
 @import url('https://use.typekit.net/grf6snf.css');
 <<<<<<< HEAD
 
-/*This is code added to hard code the ticket name into the event ticket section. Can be removed.
+This is code added to hard code the ticket name into the event ticket section. Can be removed.
 =======
 form[action="/erp/donate/create/ticket"] > div > .row:nth-child(2) > div:nth-child(2) {
    font-weight: bold !important;
@@ -12,7 +12,7 @@ form[action="/erp/donate/create/ticket"] > div > .row:nth-child(2) > div:nth-chi
    content: "Celebrating Your Impact";  
    color: black;
 }
-   */
+   
 /*Sets body font size*/
 body {
   font-size: 17px;
