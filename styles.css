@@ -150,7 +150,7 @@ h3 {
 .ft_header_container {
   background: url(https://londoncfdn.github.io/CSuite/banner-slim.jpg) center top no-repeat #1f1f1f;
   background-attachment: fixed;
-  min-height: 300px;
+  min-height: 600px;
 }
 .rtr-banner {
   display: flex;
