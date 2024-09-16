@@ -146,34 +146,6 @@ h3 {
   display: none;
 }
 
-/*sets a background image with positioning, no-repeat, fallback color, and fixes the background while scrolling.*/
-.ft_header_container {
-  background: url(https://londoncfdn.github.io/CSuite/banner-slim.jpg) center top no-repeat #1f1f1f;
-  background-attachment: fixed;
-  min-height: 600px;
-}
-.rtr-banner {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: end;
-  color: #fff;
-}
-/*Logo image on background*/
-.logo img {
-  max-width: 135px;
-  margin-top: 45px;
-}
-
-a.link-back {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  color: white;
-  margin-top: 4em;
-}
 
 /* hopefully just targetting the all funds list */
 a.btn.btn-primary.btn-sm {
